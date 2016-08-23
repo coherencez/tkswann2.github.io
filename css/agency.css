@@ -149,14 +149,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
-  /* WebKit (Safari/Chrome) Only */
-  -webkit-text-stroke: 1px black;
-  /* If we weren't using text-shadow, we'd set a fallback color
-       and use this to set color instead
-      -webkit-text-fill-color: white; */
-  color: white;
-  text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
-         and nice enhancement for WebKit */ -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .navbar-custom .navbar-brand {
   color: #fed136;
@@ -188,6 +180,11 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
+  /* WebKit (Safari/Chrome) Only */
+  -webkit-text-stroke: 1px black;
+  /* If we weren't using text-shadow, we'd set a fallback color
+                   and use this to set color instead
+                  -webkit-text-fill-color: white; */
   color: white;
 }
 .navbar-custom .nav li a:hover,
@@ -248,14 +245,6 @@ header {
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
-  /* WebKit (Safari/Chrome) Only */
-  -webkit-text-stroke: 1px black;
-  /* If we weren't using text-shadow, we'd set a fallback color
-           and use this to set color instead
-          -webkit-text-fill-color: white; */
-  color: white;
-  text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
-             and nice enhancement for WebKit */ -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -263,6 +252,14 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+  /* WebKit (Safari/Chrome) Only */
+  -webkit-text-stroke: 1px black;
+  /* If we weren't using text-shadow, we'd set a fallback color
+               and use this to set color instead
+              -webkit-text-fill-color: white; */
+  color: white;
+  text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
+                 and nice enhancement for WebKit */ -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -271,6 +268,14 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+  /* WebKit (Safari/Chrome) Only */
+  -webkit-text-stroke: 1px black;
+  /* If we weren't using text-shadow, we'd set a fallback color
+               and use this to set color instead
+              -webkit-text-fill-color: white; */
+  color: white;
+  text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
+                 and nice enhancement for WebKit */ -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -313,6 +318,16 @@ section h3.section-subheading {
   section {
     padding: 150px 0;
   }
+}
+.grid_box {
+  margin: 3% 0;
+}
+.iconWrap {
+  padding: 2%;
+}
+.logo img {
+  height: 75%;
+  width: 75%;
 }
 .service-heading {
   margin: 15px 0;
