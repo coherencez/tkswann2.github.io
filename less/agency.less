@@ -83,23 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
     background-color: @gray-darker;
     border-color: transparent;
-    /* WebKit (Safari/Chrome) Only */
-    -webkit-text-stroke: 1px black;
-
-    /* If we weren't using text-shadow, we'd set a fallback color
-       and use this to set color instead
-      -webkit-text-fill-color: white; */
-
-    color: white;
-
-    text-shadow:
-      3px 3px 0 #000,
-      /* Simulated effect for Firefox and Opera
-         and nice enhancement for WebKit */
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-     -1px  1px 0 #000,
-      1px  1px 0 #000;
     .navbar-brand {
         color: @theme-primary;
         .script-font;
@@ -131,6 +114,23 @@ h1, h2, h3, h4, h5, h6 {
                 font-weight: 400;
                 letter-spacing: 1px;
                 color: white;
+                /* WebKit (Safari/Chrome) Only */
+                -webkit-text-stroke: 1px black;
+
+                /* If we weren't using text-shadow, we'd set a fallback color
+                   and use this to set color instead
+                  -webkit-text-fill-color: white; */
+
+                color: white;
+
+                // text-shadow:
+                //   3px 3px 0 #000,
+                //   /* Simulated effect for Firefox and Opera
+                //      and nice enhancement for WebKit */
+                //  -1px -1px 0 #000,
+                //   1px -1px 0 #000,
+                //  -1px  1px 0 #000,
+                //   1px  1px 0 #000;
                 &:hover,
                 &:focus {
                     color: @theme-primary;
@@ -194,29 +194,30 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
-        /* WebKit (Safari/Chrome) Only */
-        -webkit-text-stroke: 1px black;
 
-        /* If we weren't using text-shadow, we'd set a fallback color
-           and use this to set color instead
-          -webkit-text-fill-color: white; */
-
-        color: white;
-
-        text-shadow:
-          3px 3px 0 #000,
-          /* Simulated effect for Firefox and Opera
-             and nice enhancement for WebKit */
-         -1px -1px 0 #000,
-          1px -1px 0 #000,
-         -1px  1px 0 #000,
-          1px  1px 0 #000;
         .intro-lead-in {
             .serif-font;
             font-style: italic;
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 25px;
+            /* WebKit (Safari/Chrome) Only */
+            -webkit-text-stroke: 1px black;
+
+            /* If we weren't using text-shadow, we'd set a fallback color
+               and use this to set color instead
+              -webkit-text-fill-color: white; */
+
+            color: white;
+
+            text-shadow:
+              3px 3px 0 #000,
+              /* Simulated effect for Firefox and Opera
+                 and nice enhancement for WebKit */
+             -1px -1px 0 #000,
+              1px -1px 0 #000,
+             -1px  1px 0 #000,
+              1px  1px 0 #000;
         }
         .intro-heading {
             .heading-font;
@@ -224,6 +225,23 @@ header {
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 25px;
+            /* WebKit (Safari/Chrome) Only */
+            -webkit-text-stroke: 1px black;
+
+            /* If we weren't using text-shadow, we'd set a fallback color
+               and use this to set color instead
+              -webkit-text-fill-color: white; */
+
+            color: white;
+
+            text-shadow:
+              3px 3px 0 #000,
+              /* Simulated effect for Firefox and Opera
+                 and nice enhancement for WebKit */
+             -1px -1px 0 #000,
+              1px -1px 0 #000,
+             -1px  1px 0 #000,
+              1px  1px 0 #000;
         }
     }
 }
