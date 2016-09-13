@@ -275,6 +275,17 @@ header .intro-text .intro-heading {
   text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
                  and nice enhancement for WebKit */ -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+header .intro-text .hero_ul_social {
+  position: absolute;
+  left: 46.5%;
+  top: 84%;
+}
+header .intro-text .hero_ul_social a {
+  background-color: #8944FE;
+}
+header .intro-text .hero_ul_social a:hover {
+  background-color: #6911fe;
+}
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -318,14 +329,31 @@ section h3.section-subheading {
   }
 }
 .grid_box {
-  margin: 3% 0;
+  margin: 2% 0;
 }
 .iconWrap {
-  padding: 2%;
+  padding: 10%;
 }
 .logo img {
-  height: 75%;
-  width: 75%;
+  height: 100px;
+  width: 100px;
+}
+.mochaLogo {
+  position: absolute;
+}
+.mochaLogo img {
+  width: 200px;
+  height: 90px;
+  position: relative;
+  right: 35px;
+  top: 5px;
+}
+.gulpLogo {
+  position: absolute;
+}
+.gulpLogo img {
+  height: 150px;
+  width: 75px;
 }
 .service-heading {
   margin: 15px 0;
@@ -334,6 +362,11 @@ section h3.section-subheading {
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+}
+#portfolio .portfolio-item .yeoman_logo {
+  height: 16em;
+  position: relative;
+  left: 47px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -716,6 +749,12 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+}
+.portfolio-modal .modal-content a > i {
+  font-size: 2em;
+  position: relative;
+  left: 38.5px;
+  bottom: 16px;
 }
 .portfolio-modal .close-modal {
   position: absolute;

@@ -243,6 +243,18 @@ header {
              -1px  1px 0 #000,
               1px  1px 0 #000;
         }
+        .hero_ul_social {
+            position: absolute;
+            left: 46.5%;
+            top: 84%;
+            a {
+                background-color: @theme-primary;
+
+            }
+            a:hover {
+                background-color: darken(@theme-primary, 10%);
+            }
+        }
     }
 }
 
@@ -296,16 +308,37 @@ section {
 
 // Services Section
 .grid_box {
-  margin: 3% 0;
+  margin: 2% 0;
 }
 
 .iconWrap {
-  padding: 2%
+  padding: 10%
 }
 
 .logo img {
-  height: 75%;
-  width: 75%;
+  height: 100px;
+  width: 100px;
+}
+
+.mochaLogo {
+    position: absolute;
+}
+
+.mochaLogo img {
+    width: 200px;
+    height: 90px;
+    position: relative;
+    right: 35px;
+    top: 5px;
+}
+
+.gulpLogo {
+    position: absolute;
+}
+
+.gulpLogo img {
+    height: 150px;
+    width: 75px;
 }
 
 
@@ -320,6 +353,12 @@ section {
     .portfolio-item {
         margin: 0 0 15px;
         right: 0;
+
+        .yeoman_logo {
+            height: 16em;
+            position: relative;
+            left: 47px;
+        }
 
         .portfolio-link {
             display: block;
@@ -736,6 +775,12 @@ ul.social-buttons {
         }
         img {
             margin-bottom: 30px;
+        }
+        a > i {
+            font-size: 2em;
+            position: relative;
+            left: 38.5px;
+            bottom: 16px;
         }
     }
     .close-modal {
