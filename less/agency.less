@@ -115,22 +115,22 @@ h1, h2, h3, h4, h5, h6 {
                 letter-spacing: 1px;
                 color: white;
                 /* WebKit (Safari/Chrome) Only */
-                -webkit-text-stroke: 1px black;
+                // -webkit-text-stroke: 1px black;
 
-                /* If we weren't using text-shadow, we'd set a fallback color
-                   and use this to set color instead
-                  -webkit-text-fill-color: white; */
+                // If we weren't using text-shadow, we'd set a fallback color
+                //    and use this to set color instead
+                  // -webkit-text-fill-color: white;
 
                 color: white;
 
-                // text-shadow:
-                //   3px 3px 0 #000,
-                //   /* Simulated effect for Firefox and Opera
-                //      and nice enhancement for WebKit */
-                //  -1px -1px 0 #000,
-                //   1px -1px 0 #000,
-                //  -1px  1px 0 #000,
-                //   1px  1px 0 #000;
+                text-shadow:
+                  3px 3px 0 #000,
+                  /* Simulated effect for Firefox and Opera
+                     and nice enhancement for WebKit */
+                 -1px -1px 0 #000,
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000;
                 &:hover,
                 &:focus {
                     color: @theme-primary;
